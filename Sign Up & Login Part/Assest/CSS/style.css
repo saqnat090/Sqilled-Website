@@ -1,0 +1,217 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+}
+ /* header section started */
+ .logo{
+    width: 11%;
+    padding-top: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    margin: 0%;
+}
+ul li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 11px;
+    color: #434343;
+    transition: all .3s ease-in-out;
+    display: block;
+    margin: 0%;
+}
+.login-btn-header{
+    border: 1px solid #FF572C;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 40px;
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(99.24deg, #DC0006 28.2%, #E95B00 69.93%);
+    line-height: 1.5;
+}
+.login-btn-header:hover{
+    background: linear-gradient(99.24deg, #E95B00 28.2%, #DC0006 69.93%);
+}
+.login-btn-header a{
+    margin-right: 0%;
+    color: white;
+}
+.sign-up-btn-header{
+    border: 1px solid #FF572C;
+    border-radius: 5px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+    /* background: linear-gradient(99.24deg, #DC0006 28.2%, #E95B00 69.93%); */
+    line-height: 1.5;
+}
+.sign-up-btn-header:hover{
+    background: linear-gradient(99.24deg, #E95B00 28.2%, #DC0006 69.93%);
+}
+.sign-up-btn-header:hover a{
+    color: white;
+}
+.sign-up-btn-header a{
+    margin-right: 0%;
+    color: rgb(0, 0, 0);
+}
+.input img{
+    max-width: 14px;
+}
+.search-bar{
+    font-size: 10px;
+    width: 100px;
+    letter-spacing: -0.03em;
+    color: #BABABA;
+    border: 0;
+    background-color: transparent;
+    padding: 5px;
+}
+nav{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 16px;
+}
+header{
+    padding: 40px;
+}
+/* header section closed */
+/* sign up section start */
+.sign-up-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sign-up-container > div{
+    width: 45%;
+}
+input{
+    font-size: 16px;
+    display: flex;
+    height: 48px;
+    padding: 8px 8px;
+    border-radius: 5px;
+    width:60%;
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    margin: 0;
+}
+.sign-up-heading{
+    font-size: 35px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #363848;
+    margin-left: 67px;
+}
+.sign-up-btn{
+    border: none;
+    border-radius: 5px;
+    height:50px;
+    padding: 10px 38px;
+    position: relative;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: absolute;
+    background: linear-gradient(99.24deg, #DC0006 28.2%, #E95B00 69.93%);
+    color: #fffefe;
+    margin-top: 15px;
+    margin-left: 78px;
+}
+.sign-up-btn:hover{
+    background: linear-gradient(99.24deg, #E95B00 28.2%, #DC0006 69.93%);
+}
+.sign-up-para{
+    font-size: 14px;
+    margin-top: 74px;
+    color: #2C2C2C;
+    margin-bottom: 25px;
+    margin-left: 61px;
+}
+.sign-up-form{
+    margin-top: 40px;
+}
+.sign-up-para a{
+    color: #F56C49;
+    text-decoration: none;
+}
+.sign-up-img img{
+    width: 68%;
+    margin-left: 160px;
+    margin-top: 49px;
+}
+/* sign up section close */
+/* login section satrt */
+.login-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-container > div{
+    width: 45%;
+}    
+.login-form{
+    margin-top: 100px;
+}
+.login-para{
+    font-size: 14px;
+    margin-top: 76px;
+    color: #2C2C2C;
+    margin-left: 48px;
+}
+.login-btn{
+    border: none;
+    border-radius: 5px;
+    height:50px;
+    padding: 10px 38px;
+    position: relative;
+    font-size: 16px;
+    text-transform: capitalize;
+    position: absolute;
+    background: linear-gradient(99.24deg, #DC0006 28.2%, #E95B00 69.93%);
+    color: #fffefe;
+    margin-top: 14px;
+    margin-left: 91px;
+}
+.login-btn:hover{
+    background: linear-gradient(99.24deg, #E95B00 28.2%, #DC0006 69.93%);
+}
+.login-heading{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #363848;
+    margin-left: 67px;
+    margin-left: 91px;
+}
+.login-para a{
+    color: #F56C49;
+    text-decoration: none;
+}
+.login-img img{
+    width: 68%;
+    margin-left: 160px;
+    margin-top: 130px;
+}
